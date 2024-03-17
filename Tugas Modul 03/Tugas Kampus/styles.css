@@ -1,0 +1,48 @@
+/* File CSS */
+body 
+  {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav 
+  {
+    background-color: #ebebeb;
+    width: 316px; 
+  }
+
+  
+  nav ul 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li 
+  {
+    float: left;
+  }
+  
+  nav li a 
+  {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover 
+  {
+    background-color: #474747;
+    color: white;
+    border-bottom: 4px solid #818181;
+  }
+  
+  .active 
+  {
+    background-color: #43ACAB;
+    color: white;
+    border-bottom: 4px solid #818181;
+  }
